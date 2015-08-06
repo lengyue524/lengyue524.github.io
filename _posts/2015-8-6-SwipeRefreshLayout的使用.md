@@ -9,7 +9,7 @@ comment: true
 
 布局中只能包含一个child，并且child必须是可滚动的，比如ScrollView或ListView。
 
-{% highlight yaml %}
+{% highlight java %}
 //布局文件中找到SwipeRefreshLayout初始化
 SwipeRefreshLayout mSrl = (SwipeRefreshLayout) rootView.findViewById(R.id.swiperefresh);
 //设置刷新布局的颜色序列，刷新时会按照颜色顺序变化
