@@ -3,7 +3,7 @@ layout: post
 title: SwipeRefreshLayout的使用
 categories: [Android,Java]
 tags: [Android,java,layout]
-comment: true
+comments: true
 ---
 最近官方推出了自己的下拉刷新布局**[SwipeRefreshLayout](https://developer.android.com/reference/android/support/v4/widget/SwipeRefreshLayout.html)**，下面介绍下此布局的使用方法。
 
