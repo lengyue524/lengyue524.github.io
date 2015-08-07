@@ -18,7 +18,7 @@ defaults:
 description: Stylish Jekyll Theme
 author:
   name: IMAKIBA
-  email: lengyue524@gmail.com
+  #email: lengyue524@gmail.com
   github: lengyue524
   twitter: lengyue524
 #  pinterest: asd123
