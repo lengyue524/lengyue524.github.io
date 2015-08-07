@@ -19,7 +19,6 @@ android.R.color.holo_blue_dark,
 android.R.color.holo_orange_light);
 //设置刷新事件监听
 mSrl.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
-
     @Override
     public void onRefresh() {
         //刷新列表
