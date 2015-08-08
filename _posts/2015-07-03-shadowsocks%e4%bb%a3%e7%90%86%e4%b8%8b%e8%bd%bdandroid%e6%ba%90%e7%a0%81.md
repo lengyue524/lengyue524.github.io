@@ -6,13 +6,13 @@ author: lengyue524
 comments: true
 categories: [android]
 ---
-<h2>由于GFW的封锁，下载android源码很麻烦，这里记录下翻墙下载源码的方法。</h2>
+<h4>由于GFW的封锁，下载android源码很麻烦，这里记录下翻墙下载源码的方法。</h4>
 
 <p>我这里使用的代理工具是shadowsocks，在ubuntu的安装方法我就不介绍了。 我这里安装的是shadowsocks-qt5，客户端可以连接服务端即可，不用配置自动代理或全局代理。 注意，我设置的本地客户端地址为默认127.0.0.0端口为1080。</p>
 
 <hr />
 
-<h2>下载repo</h2>
+<h4>下载repo</h4>
 
 <p>因为repo支持代理下载，我们只需要在官方的命令上加上代理就可以正常下载了。</p>
 
@@ -20,7 +20,7 @@ categories: [android]
 
 <hr />
 
-<h2>下载源码</h2>
+<h4>下载源码</h4>
 
 <p>清华镜像地址：<code>git://aosp.tuna.tsinghua.edu.cn/android/</code></p>
 

@@ -4,13 +4,14 @@ title: Unity3d:Surface Shader中使用Properties（三）
 date: 2014-12-10 15:09
 author: lengyue524
 comments: true
-categories: [cg shading language, properties, shader, shader, unity]
+categories: [cg shading language, properties, shader, unity]
 ---
 在Surface Shader中我们需要将Properties与Shader代码进行绑定，这样在Material的Inspector标签中修改属性值才会对Shader产生影响。
 
 下面的步骤告诉我们在Surfaces Shader中如何使用Properties：
 
-&nbsp;
+
+
 <ol>
 	<li><span style="line-height: 1.5;"><span style="line-height: 1.5;">打开之前创建的Shader文件，删除下面的代码</span></span>
 <pre class="brush:cpp">sampler2D _MainTex;
@@ -60,7 +61,7 @@ float _MySliderValue;</pre>
 	FallBack "Diffuse"
 }
 </pre>
-<img title="" src="/wp-content/uploads/2014/12/20141210150104_36948.png" alt="" width="900" height="370" align="" /></li>
+<img title="" src="http://7xky0m.com1.z0.glb.clouddn.com/20141210150104_36948.png" alt="" width="900" height="370" align="" /></li>
 </ol>
 上面的代码中，我们使用到了pow(x,y)这个方法，这是一个内建函数运算的结果为x<sup>y</sup>。
 

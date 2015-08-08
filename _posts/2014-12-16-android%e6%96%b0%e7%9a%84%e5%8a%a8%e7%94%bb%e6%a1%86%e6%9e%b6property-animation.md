@@ -4,10 +4,11 @@ title: Android的动画框架Property Animation
 date: 2014-12-16 11:32
 author: lengyue524
 comments: true
-categories: [android, android, Java, java, property Animation]
+categories: [android, Java, property Animation]
+description: Android的View Animation使用的是tween动画与frame动画
 ---
 <p style="text-indent:2em;">
-	Android的View Animation使用的是tween动画与frame动画，关于<span>View Animation</span>的使用可参考：
+	Android的View Animation使用的是tween动画与frame动画，关于View Animation</span>的使用可参考：
 </p>
 <p style="text-indent:2em;">
 	<a href="http://www.ibm.com/developerworks/cn/opensource/os-cn-android-anmt1/index.html?ca=dat-" target="_blank">http://www.ibm.com/developerworks/cn/opensource/os-cn-android-anmt1/index.html?ca=dat-</a> 
@@ -18,6 +19,8 @@ categories: [android, android, Java, java, property Animation]
 <p style="text-indent:2em;">
 	<a href="http://developer.android.com/guide/topics/graphics/prop-animation.html" target="_blank">http://developer.android.com/guide/topics/graphics/prop-animation.html</a> 
 </p>
+
+
 <p style="text-indent:2em;">
 	<br />
 </p>

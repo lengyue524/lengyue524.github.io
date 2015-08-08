@@ -4,7 +4,8 @@ title: Unity3d:Surface Shader的Properties介绍（二）
 date: 2014-12-09 16:43
 author: lengyue524
 comments: true
-categories: [shader, shader, unity]
+categories: [shader, unity]
+description: Shader的Properties在Shader的渲染管道中是非常重要的，它是艺术家和用户指定纹理Texture和调整Shader值的手段。
 ---
 <p style="text-indent:2em;">
 	Shader的Properties在Shader的渲染管道中是非常重要的，它是艺术家和用户指定纹理Texture和调整Shader值的手段。
@@ -12,11 +13,13 @@ categories: [shader, shader, unity]
 <p style="text-indent:2em;">
 	Properties允许在Material的Inspector标签中显示GUI元素，而不用我们使用其他编辑器来修改，这提供给我们一个很直观的修改方法。
 </p>
+
+
 <p style="text-indent:2em;">
 	在MonoDevelop中打开上一节的Shader，在第2-4行，我们称这里为Properties块，现在它又一个属性叫做_MainTex。如果你查看使用这个Shader的Material，你会注意到在Inspector标签有一个叫做Texture的GUI元素。这些代码就在为我们创建了这个GUI。
 </p>
 <p>
-	<img src="/wp-content/uploads/2014/12/20141209151046_54477.png" alt="" /> 
+	<img src="http://7xky0m.com1.z0.glb.clouddn.com/20141209151046_54477.png" alt="" /> 
 </p>
 <p style="text-indent:2em;">
 	<br />
@@ -80,7 +83,7 @@ categories: [shader, shader, unity]
 			我们创建了新的GUI元素来与我们的Shader直观的交互，我们新建的Slider叫做This is a Slider，如下图所示
 		</p>
 		<p>
-			<img src="/wp-content/uploads/2014/12/20141209150635_97412.png" alt="" /> 
+			<img src="http://7xky0m.com1.z0.glb.clouddn.com/20141209150635_97412.png" alt="" /> 
 		</p>
 		<p>
 			<br />
@@ -106,7 +109,7 @@ categories: [shader, shader, unity]
 <p style="text-indent:2em;">
 	Shader程序员创建一个GUI元素直接与Shader代码进行绑定。Properties块中定义的属性可以用来改变Shader的值，颜色和纹理（Texture）。
 </p>
-<img src="/wp-content/uploads/2014/12/20141209153903_28486.png" /> 
+<img src="http://7xky0m.com1.z0.glb.clouddn.com/20141209153903_28486.png" /> 
 <p style="text-indent:2em;">
 	<br />
 </p>

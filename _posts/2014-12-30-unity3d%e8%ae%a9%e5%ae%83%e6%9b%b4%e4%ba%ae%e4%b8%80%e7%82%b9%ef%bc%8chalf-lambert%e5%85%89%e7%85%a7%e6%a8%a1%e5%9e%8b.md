@@ -4,7 +4,7 @@ title: Unity3d:让它更亮一点，Half Lambert光照模型（五）
 date: 2014-12-30 11:46
 author: lengyue524
 comments: true
-categories: [shader, shader, unity]
+categories: [shader, unity]
 ---
 <p>Half Lambert通过光照值的计算来让背光部分更加明亮一些。</p>
 

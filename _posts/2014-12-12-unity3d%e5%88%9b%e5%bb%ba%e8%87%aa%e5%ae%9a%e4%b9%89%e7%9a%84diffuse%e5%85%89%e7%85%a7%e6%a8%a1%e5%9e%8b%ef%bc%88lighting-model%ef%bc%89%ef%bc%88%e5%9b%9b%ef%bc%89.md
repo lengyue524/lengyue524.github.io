@@ -4,16 +4,15 @@ title: Unity3d:创建自定义的Diffuse光照模型（lighting model）（四�
 date: 2014-12-12 16:21
 author: lengyue524
 comments: true
-categories: [shader, shader, unity]
+categories: [shader,unity]
 ---
 <p>
 	前面创建的Shader都是使用的Unity内建的光照函数，虽然能够满足大多数项目的需要，但是还是会遇到内建的光照模型无法满足需要的效果的时候。这时候就需要自定义光照模型的了。使用自定义的光照模型，我们可以控制边界光，Cubemap的光照，甚至Shader对外界环境的变化。
 </p>
+
+
 <p>
 	这一节我们使用之前创建的光照模型，创建一点不同的效果。
-</p>
-<p>
-	<br />
 </p>
 <ol>
 	<li>
@@ -37,17 +36,9 @@ categories: [shader, shader, unity]
 </span> 
 	</li>
 </ol>
-<p>
-	<br />
-</p>
 <hr />
 我们来看看它是怎么工作的：
-<p>
-	<br />
-</p>
-<p>
-	<br />
-</p>
+
 <ul>
 	<li>
 		<span style="line-height:1.5;"></span><span style="line-height:1.5;">#pragma surface告诉我们Shader使用的哪个光照模型。在我们创建的时候，Unity给我们默认指定为Lambert光照模型。我们现在告诉Shader去寻找我们自定义的BaseDiffuse光照模型。</span> 
