@@ -24,5 +24,5 @@ categories: [shader, unity]
 
 <p>下面是漫反射和Half Lambert的视觉区别，可以看到Lambert暗部明显黑，并且颜色没有渐变，显的很平。Half Lambert暗步比较明亮，并且渐变明显。</p>
 
-<p><img src="http://www.imakiba.com/wp-content/uploads/2014/12/3D9D1156-5153-484F-866A-DBF18D1331EB-300x166.jpg" alt="Lambert和Half Lambert的视觉区别" /></p>
+<p><img src="http://7xky0m.com1.z0.glb.clouddn.com/3D9D1156-5153-484F-866A-DBF18D1331EB-300x166.jpg" alt="Lambert和Half Lambert的视觉区别" /></p>
 
