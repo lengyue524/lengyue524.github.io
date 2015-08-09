@@ -6,7 +6,7 @@ exclude: ["README.md"] # files to exclude
 highlighter: pygments
 markdown: kramdown
 disqus: imakiba
-google_analytics: imakiba
+google_analytics: UA-40992007-1
 
 defaults:
   -
@@ -15,7 +15,7 @@ defaults:
     values:
       title: IMAKIBA
 
-description: Stylish Jekyll Theme
+description: 李航的blog
 author:
   name: IMAKIBA
   #email: lengyue524@gmail.com

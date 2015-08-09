@@ -1,7 +1,11 @@
 @import url(http://fonts.googleapis.com/css?family=Ubuntu:500&subset=latin,latin-ext);
 
 body{
-	color: #2c3e50;
+    background-color: #F7F7F7;
+    background-attachment: fixed;
+    background-image: url(http://7xky0m.com1.z0.glb.clouddn.com/bg.png);
+    background-position: right top;
+    background-repeat: no-repeat;
 }
 
 .sidebar {
