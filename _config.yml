@@ -25,6 +25,7 @@ author:
 #  linkedin: asd123
   bio: Welcom to my blog!
   email_md5: 43ee7f8f8ce022f53e3a2807f1ab7ada
+# resume: 
 
 rss_path: feed.xml
 categories_path: categories.html
