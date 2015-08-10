@@ -4,7 +4,7 @@ title: Unity3d:让它更亮一点，Half Lambert光照模型（五）
 date: 2014-12-30 11:46
 author: lengyue524
 comments: true
-categories: [shader, unity]
+categories: [shader, Unity3d]
 ---
 <p>Half Lambert通过光照值的计算来让背光部分更加明亮一些。</p>
 
@@ -25,4 +25,3 @@ categories: [shader, unity]
 <p>下面是漫反射和Half Lambert的视觉区别，可以看到Lambert暗部明显黑，并且颜色没有渐变，显的很平。Half Lambert暗步比较明亮，并且渐变明显。</p>
 
 <p><img src="http://7xky0m.com1.z0.glb.clouddn.com/3D9D1156-5153-484F-866A-DBF18D1331EB-300x166.jpg" alt="Lambert和Half Lambert的视觉区别" /></p>
-
