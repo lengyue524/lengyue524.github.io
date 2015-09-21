@@ -5,6 +5,7 @@ date: 2015-07-03 18:04
 author: lengyue524
 comments: true
 categories: [android]
+description: 由于GFW的封锁，下载android源码很麻烦，这里记录下翻墙下载源码的方法。
 ---
 <h4>由于GFW的封锁，下载android源码很麻烦，这里记录下翻墙下载源码的方法。</h4>
 
@@ -35,4 +36,3 @@ categories: [android]
 <p>完毕后执行<code>repo sync</code>即可</p>
 
 <p>其他操作，比如下载特定版本号，只需要将 https://android.googlesource.com/ 全部使用 git://aosp.tuna.tsinghua.edu.cn/android/ 代替即可。</p>
-
