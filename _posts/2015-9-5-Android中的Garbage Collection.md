@@ -10,7 +10,7 @@ John McCarthy早在1959年lisp语言中就发明了Garbage Collection。早期�
 1. 找到不再使用的对象
 2. 回收它
 
-但是我们如何从内存中找到这些对象呢，这是一个很复杂的问题。但是经过50多年的改革创新，Android中的Garbage Collection要比John McCarthy的原始版本更加高效而且非侵入式。
+但是我们如何从内存中找到这些对象呢，这是一个很复杂的问题。但是经过50多年的改革创新，Android中的Garbage Collection要比John McCarthy的原始版本更加高效而且非侵入式。关于java虚拟机是如何回收的可以阅读**《深入理解Java虚拟机》**来了解其原理。
 
 为了让gc事件更加高效，Android运行时将内存依据数据特性分割为不同的区块，让系统能够更好的组织分配内存。系统会更加对象的特性将其放到最合适的区块中。
 
