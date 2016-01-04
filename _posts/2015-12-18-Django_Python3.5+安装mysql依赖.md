@@ -13,7 +13,7 @@ description: Django+Python3.5+使用mysql比较复杂，记录一下。
 
 安装python3.5-dev
 
-{% highlight shell %}
+{% highlight Bash %}
 sudo apt-get install python3.5-dev
 {% endhighlight %}
 
@@ -22,6 +22,6 @@ sudo apt-get install python3.5-dev
 
 mysqlclient支持mysql4.1-5.5版本支持python2.7，3.3-3.5版本
 
-{% highlight shell %}
+{% highlight Bash %}
 sudo pip3 install mysqlclient
 {% endhighlight %}
