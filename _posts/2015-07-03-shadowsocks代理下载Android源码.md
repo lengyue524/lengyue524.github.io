@@ -1,6 +1,6 @@
 ---
 layout: post
-title: shadowsocks代理下载repo,清华镜像下载Android源码
+title: shadowsocks代理下载Android源码
 date: 2015-07-03 18:04
 author: lengyue524
 comments: true
@@ -21,7 +21,7 @@ description: 由于GFW的封锁，下载android源码很麻烦，这里记录下
 
 <hr />
 
-<h4>下载源码</h4>
+<h4>清华镜像下载Android源码</h4>
 
 <p>清华镜像地址：<code>git://aosp.tuna.tsinghua.edu.cn/android/</code></p>
 
@@ -36,3 +36,16 @@ description: 由于GFW的封锁，下载android源码很麻烦，这里记录下
 <p>完毕后执行<code>repo sync</code>即可</p>
 
 <p>其他操作，比如下载特定版本号，只需要将 https://android.googlesource.com/ 全部使用 git://aosp.tuna.tsinghua.edu.cn/android/ 代替即可。</p>
+
+<h4>使用privoxy代理下载Android源码</h4>
+
+privoxy可以创建http代理通过shadowsocks的socks5来实现代理。安装使用方法可以google找到很多安装方法，我这里不再赘述。
+
+在`bash`文件中添加两行，在ubuntu中是`.bashrc`其他操作系统请自行google。
+
+{% highlight Bash %}
+export HTTP_PROXY=http://127.0.0.1:8118
+export HTTPS_PROXY=http://127.0.0.1:8118
+{% endhighlight %}
+
+然后按照官方的文档执行`repo init -u https://android.googlesource.com/platform/manifest`然后`repo sync`下载代码。
