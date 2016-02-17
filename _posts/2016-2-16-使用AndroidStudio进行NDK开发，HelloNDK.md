@@ -10,6 +10,7 @@ description: NDK开发网上已经有许多教程，但是由于工具的版本�
 
 下面是官方NDK教程，英文版。
 https://codelabs.developers.google.com/codelabs/android-studio-jni/index.html#0
+
 http://tools.android.com/tech-docs/android-ndk-preview
 
 ##创建HelloNDK项目
