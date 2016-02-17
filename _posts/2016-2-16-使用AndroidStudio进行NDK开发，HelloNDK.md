@@ -14,9 +14,9 @@ https://codelabs.developers.google.com/codelabs/android-studio-jni/index.html#0
 
 http://tools.android.com/tech-docs/android-ndk-preview
 
-##创建HelloNDK项目
+## 创建HelloNDK项目
 
-##设置gradle插件
+## 设置gradle插件
 
 打开`build.gradle(Project:HelloNDK)`文件，替换
 
@@ -71,7 +71,7 @@ model {
 
 到这里环境配置完成。
 
-##NDK开发
+## NDK开发
 
 设置native库名，打开`build.gradle(Module:app)`文件
 
