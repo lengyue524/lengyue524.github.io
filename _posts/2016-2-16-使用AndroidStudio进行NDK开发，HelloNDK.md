@@ -9,6 +9,7 @@ description: NDK开发网上已经有许多教程，但是由于工具的版本�
 先介绍下我的开发环境。mac OS ，androidStudio1.5.1.
 
 下面是官方NDK教程，英文版。
+
 https://codelabs.developers.google.com/codelabs/android-studio-jni/index.html#0
 
 http://tools.android.com/tech-docs/android-ndk-preview
