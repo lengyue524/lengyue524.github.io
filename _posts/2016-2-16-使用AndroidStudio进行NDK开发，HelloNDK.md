@@ -20,21 +20,28 @@ http://tools.android.com/tech-docs/android-ndk-preview
 
 打开`build.gradle(Project:HelloNDK)`文件，替换
 
-`classpath 'com.android.tools.build:gradle:1.5.0'`
-
+{% highlight bash %}
+classpath 'com.android.tools.build:gradle:1.5.0'
+{% endhighlight %}
 为
 
-`classpath 'com.android.tools.build:gradle-experimental:0.6.0-alpha5'`
+{% highlight bash %}
+classpath 'com.android.tools.build:gradle-experimental:0.6.0-alpha5'
+{% endhighlight %}
 
 打开`gradle-wrapper.properties`文件，替换
 
-`distributionUrl=https\://services.gradle.org/distributions/gradle-2.8-all.zip`
+{% highlight bash %}
+distributionUrl=https\://services.gradle.org/distributions/gradle-2.8-all.zip
+{% endhighlight %}
 
 为
 
-`distributionUrl=https\://services.gradle.org/distributions/gradle-2.10-all.zip`
+{% highlight bash %}
+distributionUrl=https\://services.gradle.org/distributions/gradle-2.10-all.zip
+{% endhighlight %}
 
-<i color=red>注意：gradle-experimental与gradle版本是有依赖关系的，其关系请参考上面给出的官方文档。</i>
+注意：gradle-experimental与gradle版本是有依赖关系的，其关系请参考上面给出的官方文档。
 
 打开`build.gradle(Module:app)`文件，参考下面的内容进行替换，
 
