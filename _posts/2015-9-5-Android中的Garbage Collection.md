@@ -27,6 +27,6 @@ John McCarthy早在1959年lisp语言中就发明了Garbage Collection。早期�
 ![][image-3]
 
 
-[image-1]:	http://7xky0m.com1.z0.glb.clouddn.com/3769277C-2AB0-4A5C-8356-4EAB8981DF9A.jpeg
-[image-2]:	http://7xky0m.com1.z0.glb.clouddn.com/89F53CD7-4383-4E05-B649-1A5A03319D2C.png
-[image-3]:	http://7xky0m.com1.z0.glb.clouddn.com/BF9E0CA8-72D8-4464-9810-9B32116D7F30.png
+[image-1]:	{{site.url}}/assets/blog_img/3769277C-2AB0-4A5C-8356-4EAB8981DF9A.jpeg
+[image-2]:	{{site.url}}/assets/blog_img/89F53CD7-4383-4E05-B649-1A5A03319D2C.png
+[image-3]:	{{site.url}}/assets/blog_img/BF9E0CA8-72D8-4464-9810-9B32116D7F30.png

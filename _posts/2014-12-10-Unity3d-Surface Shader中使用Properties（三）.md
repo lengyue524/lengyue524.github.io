@@ -40,17 +40,17 @@ float _MySliderValue;</pre>
     SubShader {
         Tags { "RenderType"="Opaque" }
         LOD 200
-     
+
         CGPROGRAM
         #pragma surface surf Lambert
-
+    
         float4 _EmissiveColor;
         float4 _AmbientColor;
         float _MySliderValue;
         struct Input {
             float2 uv_MainTex;
         };
-
+    
         void surf (Input IN, inout SurfaceOutput o) {
             float4 c = pow(_EmissiveColor+_AmbientColor,_MySliderValue);
             o.Albedo = c.rgb;
@@ -61,7 +61,7 @@ float _MySliderValue;</pre>
     FallBack "Diffuse"
 }
 </pre>
-<img title="" src="http://7xky0m.com1.z0.glb.clouddn.com/20141210150104_36948.png" alt="" width="900" height="370" align="" /></li>
+<img title="" src="{{site.url}}/assets/blog_img/20141210150104_36948.png" alt="" width="900" height="370" align="" /></li>
 </ol>
 上面的代码中，我们使用到了pow(x,y)这个方法，这是一个内建函数运算的结果为x<sup>y</sup>。
 

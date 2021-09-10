@@ -32,3 +32,4 @@ categories_path: categories.html
 tags_path: tags.html
 
 BASE_PATH:
+plugins: [jekyll-paginate]

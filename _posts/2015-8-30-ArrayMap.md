@@ -86,8 +86,9 @@ Android中有一个新的类型`ArrayMap`来解决HashMap带来的内存浪费�
 	    mSize++;
 	    return null;
 	}
-	
-	
+
+
+​	
 	/**
 	 * Remove an existing key from the array map.
 	 * @param key The key of the mapping to remove.
@@ -197,5 +198,5 @@ for(Iterator it = map.iterator();it.hasNest();){
 在这样的情况下，我们有足够的理由使用ArrayMap来节省内存，而不用理会那微不足道的性能消耗。
 
 
-[image-1]:	http://7xky0m.com1.z0.glb.clouddn.com/B26EBBD1-E876-40AA-822B-8277A16876A9.png
-[image-2]:	http://7xky0m.com1.z0.glb.clouddn.com/46642BF8-D443-445C-BAF3-D8F7983D8864.jpeg
+[image-1]:	{{site.url}}/assets/blog_img/B26EBBD1-E876-40AA-822B-8277A16876A9.png
+[image-2]:	{{site.url}}/assets/blog_img/46642BF8-D443-445C-BAF3-D8F7983D8864.jpeg
